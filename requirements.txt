@@ -1,0 +1,5 @@
+ollama
+chromadb>=1.5
+pypdf
+cryptography
+streamlit

@@ -1,0 +1,21 @@
+# Python virtual environment (each person creates their own)
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# The vector database: rebuilt from your documents with build_index.py,
+# and it contains the full text of your notes
+chroma_db/
+
+# Your documents (private or copyrighted material)
+docs/
+
+# Secrets and editor/OS clutter
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
